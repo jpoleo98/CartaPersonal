@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Carta*/
+
+main{
+    width: 100%;
+    height: 100%;
+}
+
+.carta{
+    align-items: center;
+    margin: 4rem auto;
+    width: 25rem;
+    height: 30rem;
+    background-color: #f4f4f4;
+    border-radius: 5%;
+    box-shadow: 16px 18px 54px 12px rgba(0,0,0,0.64);
+    overflow: hidden;
+    transition: all ease-in 0.5s;
+}
+
+.carta:hover{
+    scale: 1.2;
+}
+
+.imagenFondo{
+    width: 100%;
+    height: 14rem;
+    z-index: 2;
+}
+
+.contenedor-img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.perfil{
+    width: 8rem;
+    height: 8rem;
+    position: absolute;
+    background-image: url("../img/IW.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 100%;
+    z-index: 1;
+    border: 5px solid #ffffff;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: -4rem;
+}
+
+.nombre{
+    font-size: 2.5rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 2.2rem;
+}
+
+.carrera{
+    font-size: 1.2rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: -1.6rem;
+    font-weight: 300;
+}
+
+.lugar-t{
+    font-size: 1.2rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.lugar{
+    font-size: 1.2rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 0rem;
+    font-weight: 300;
+}
+
+.redes-sociales{
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+}
