@@ -98,3 +98,12 @@ main{
     display: flex;
     justify-content: space-evenly;
 }
+
+.redes-sociales i{
+    color: #c2c2c2;
+    transition: all ease-in-out 0.5s;
+}
+
+.redes-sociales i:hover{
+    color: black;
+}
